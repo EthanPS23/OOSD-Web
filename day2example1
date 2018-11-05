@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MAin PAge</title>
+  </head>
+  <body>
+    <form method = "get" action="bouncer.php">
+        <input type="text" name="fname"/>
+        <input type="text" name="lname"/>
+
+        <input type="submit" value="Register"/>
+        <input type="reset" value="Rest the form"/>
+  </body>
+</html>
