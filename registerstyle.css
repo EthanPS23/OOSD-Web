@@ -1,0 +1,38 @@
+legend{
+  background-color:#23efff
+}
+input[value] {
+  background-color:#87f9ff
+  font-family: 'Mali',cursive;
+  color: #f6ff00;
+  text-shadow: 1px 1px 1px #ff00ff;
+}
+
+
+input[type*=um]{background-color:#87f9ff}
+input[type="password"]{background-color: #87f9ff}
+input[type="date"]{background-color: #87f9ff}
+textarea[name="address"]{background-color: #87f9ff}
+select[name="destinations"]{background-color:#87f9ff}
+fieldset{
+  display: grid;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border-radius: 15px;
+  border: 1.2em solid  #23efff;
+  background-color: #00c1cc;
+
+}
+input[type="text"]{
+  background-color: #87f9ff;
+}
+body{
+  font-family: 'Mali',cursive;
+  color: #f6ff00;
+  text-shadow: 4px 4px 4px #ff00ff;
+  background-color: #87f9ff;
+}
