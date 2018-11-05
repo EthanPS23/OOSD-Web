@@ -1,0 +1,36 @@
+body{
+  font-family: 'Mali',cursive;
+
+  background-image: url("mountainbackground.jpg") ;
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+}
+header{
+  text-shadow: 4px 4px 4px #f6ff00;
+  background-color: #bad4ff;
+  padding:0px;
+  text-align: center;
+  font-size: 40px;
+}
+footer{
+  color: inherit;
+  background-color: inherit;
+
+}
+article{
+
+}
+.item{
+  width: 50%;
+  height:100%;
+  text-align:center;
+  display:block;
+  background-color:transparent;
+
+  float: left;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
